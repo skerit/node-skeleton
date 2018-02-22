@@ -1,0 +1,29 @@
+{
+	"name"            : "node-skeleton",
+	"description"     : "A skeleton for node.js projects",
+	"author"          : "Jelle De Loecker <jelle@develry.be>",
+	"version"         : "0.1.0-alpha",
+	"repository"      : "skerit/node-skeleton",
+	"license"         : "MIT",
+	"keywords"        : ["skeleton", "boilerplate"],
+	"contributors"    : [],
+	"main"            : "lib/init.js",
+	"bin"             : "bin/skeleton",
+	"dependencies"    : {
+		"protoblast"  : "~0.5.1"
+	},
+	"devDependencies" : {
+		"coveralls"   : "^2.11.6",
+		"istanbul"    : "^0.4.5",
+		"mocha"       : "1.20.x"
+	},
+	"scripts": {
+		"test"            : "node_modules/.bin/mocha --reporter spec",
+		"coverage"        : "./node_modules/istanbul/lib/cli.js cover _mocha",
+		"report-coverage" : "cat ./coverage/lcov.info | coveralls"
+	},
+	"engines": {
+		"node": ">=4.8"
+	},
+	"private": true
+}
