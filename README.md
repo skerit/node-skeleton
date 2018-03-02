@@ -78,12 +78,10 @@ A method that makes you happy.
 Contributions are REALLY welcome.
 Please check the [contributing guidelines](.github/contributing.md) for more details. Thanks!
 
-> Please learn about [conventional commits](https://conventionalcommits.org/) and [semantic versioning](https://semver.org/) before committing on this repo.
-
 ## Authors
 - **Jelle De Loecker** -  *Follow* me on *Github* ([:octocat:@skerit](https://github.com/skerit)) and on  *Twitter* ([🐦@skeriten](http://twitter.com/intent/user?screen_name=skeriten))
 
-See also the list of [contributors](https://github.com/skerit/node-package-skelethon/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/skerit/node-skeleton/contributors) who participated in this project.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/skerit/node-skeleton/LICENSE) file for details.
