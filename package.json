@@ -10,17 +10,18 @@
 	"main"            : "lib/init.js",
 	"bin"             : "bin/skeleton",
 	"dependencies"    : {
-		"protoblast"  : "~0.5.2"
+		"protoblast"  : "~0.5.9"
 	},
 	"devDependencies" : {
-		"codecov"     : "~3.0.0",
-		"istanbul"    : "^0.4.5",
-		"mocha"       : "1.20.x"
+		"codecov"    : "~3.0.4",
+		"nyc"        : "^12.0.2",
+		"mocha"      : "~5.2.0"
 	},
 	"scripts": {
-		"test"            : "node_modules/.bin/mocha --reporter spec",
-		"coverage"        : "./node_modules/istanbul/lib/cli.js cover _mocha",
-		"report-coverage" : "cat ./coverage/lcov.info | coveralls"
+		"test"            : "node_modules/.bin/mocha --exit --reporter spec --bail --timeout 5000 --file test/00-init.js",
+		"appveyor"        : "node_modules/.bin/mocha --exit --reporter spec --bail --timeout 20000 --file test/00-init.js",
+		"coverage"        : "node_modules/.bin/nyc --reporter=text --reporter=lcov mocha --exit --timeout 20000 --bail --file test/00-init.js",
+		"report-coverage" : "cat ./coverage/lcov.info | codecov"
 	},
 	"engines": {
 		"node": ">=4.8"
