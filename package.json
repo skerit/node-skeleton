@@ -1,7 +1,7 @@
 {
 	"name"            : "node-skeleton",
 	"description"     : "A skeleton for node.js projects",
-	"author"          : "Jelle De Loecker <jelle@develry.be>",
+	"author"          : "Jelle De Loecker <jelle@elevenways.be>",
 	"version"         : "0.1.0-alpha",
 	"repository"      : "skerit/node-skeleton",
 	"license"         : "MIT",
@@ -13,9 +13,9 @@
 		"protoblast"  : "~0.7.0"
 	},
 	"devDependencies" : {
-		"codecov"    : "~3.0.4",
-		"nyc"        : "^12.0.2",
-		"mocha"      : "~5.2.0"
+		"codecov"    : "~3.6.5",
+		"nyc"        : "^15.0.1",
+		"mocha"      : "~7.1.1"
 	},
 	"scripts": {
 		"test"            : "node_modules/.bin/mocha --exit --reporter spec --bail --timeout 5000 --file test/00-init.js",
