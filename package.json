@@ -13,7 +13,7 @@
 		"protoblast"  : "~0.7.0"
 	},
 	"devDependencies" : {
-		"codecov"    : "~3.6.5",
+		"codecov"    : "~3.7.1",
 		"nyc"        : "^15.0.1",
 		"mocha"      : "~7.1.1"
 	},
