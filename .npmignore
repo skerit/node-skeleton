@@ -1,4 +1,4 @@
-# Ignore IDE specific files
+# IDE files
 *.komodo*
 *.sublime*
 .idea/
@@ -21,16 +21,15 @@ callgrind*
 *.wtf-trace
 deoptigate/
 *.0x/
+deoptigate/
 
-# Ignore report files
-plato/
-
-# Dependencies
-node_modules/
+# Ignore node modules
+/node_modules/
 
 # Coverage directory used by istanbul
 .nyc_output/
 coverage/
+.nycrc.yml
 
 # Coveralls contains private info
 .coveralls.yml
@@ -50,3 +49,17 @@ yarn.lock
 # Ignore test files
 scratch*
 log.json
+
+## More files that don't need to go on NPM
+
+# Ignore benchmarks
+/benchmark/
+
+# The samples and test folder shouldn't go on npm
+samples/*
+test/*
+
+/selenium/
+.codecov.yml
+.travis.yml
+*.tgz
