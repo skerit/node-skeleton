@@ -12,10 +12,10 @@
 		"node-skeleton": "bin/execbin.js"
 	},
 	"dependencies"    : {
-		"protoblast"  : "~0.7.7"
+		"protoblast"  : "~0.7.12"
 	},
 	"devDependencies" : {
-		"codecov"    : "~3.8.1",
+		"codecov"    : "~3.8.3",
 		"nyc"        : "^15.1.0",
 		"mocha"      : "~8.2.0"
 	},
