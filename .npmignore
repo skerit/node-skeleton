@@ -38,6 +38,9 @@ coverage/
 # (This is NOT .codecov.yml)
 codecov.yml
 
+# Github settings
+.github/
+
 # Locks
 package-lock.json
 npm-shrinkwrap.json

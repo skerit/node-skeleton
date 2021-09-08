@@ -2,29 +2,24 @@
   <b>node-skeleton</b>
 </h1>
 <div align="center">
-  <!-- CI - TravisCI -->
-  <a href="https://travis-ci.org/skerit/node-skeleton">
-    <img src="https://img.shields.io/travis/typicode/husky/master.svg?label=Mac%20OSX%20%26%20Linux" alt="Mac/Linux Build Status" />
-  </a>
-
-  <!-- CI - AppVeyor -->
-  <a href="https://ci.appveyor.com/project/skerit/node-skeleton">
-    <img src="https://img.shields.io/appveyor/ci/skerit/node-skeleton/master.svg?label=Windows" alt="Windows Build status" />
+  <!-- CI - Github Actions -->
+  <a href="https://github.com/11ways/node-skeleton/actions/workflows/unit_test.yaml">
+    <img src="https://github.com/11ways/node-skeleton/actions/workflows/unit_test.yaml/badge.svg" alt="Node.js CI (Linux, MacOS, Windows)" />
   </a>
 
   <!-- Coverage - Codecov -->
-  <a href="https://codecov.io/gh/skerit/node-skeleton">
-    <img src="https://img.shields.io/codecov/c/github/skerit/node-skeleton/master.svg" alt="Codecov Coverage report" />
+  <a href="https://codecov.io/gh/11ways/node-skeleton">
+    <img src="https://img.shields.io/codecov/c/github/11ways/node-skeleton/master.svg" alt="Codecov Coverage report" />
   </a>
 
   <!-- DM - Snyk -->
-  <a href="https://snyk.io/test/github/skerit/node-skeleton?targetFile=package.json">
-    <img src="https://snyk.io/test/github/skerit/node-skeleton/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" />
+  <a href="https://snyk.io/test/github/11ways/node-skeleton?targetFile=package.json">
+    <img src="https://snyk.io/test/github/11ways/node-skeleton/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" />
   </a>
 
   <!-- DM - David -->
-  <a href="https://david-dm.org/skerit/node-skeleton">
-    <img src="https://david-dm.org/skerit/node-skeleton/status.svg" alt="Dependency Status" />
+  <a href="https://david-dm.org/11ways/node-skeleton">
+    <img src="https://david-dm.org/11ways/node-skeleton/status.svg" alt="Dependency Status" />
   </a>
 </div>
 
@@ -35,24 +30,24 @@
   </a>
 
   <!-- License - MIT -->
-  <a href="https://github.com/skerit/node-skeleton#license">
-    <img src="https://img.shields.io/github/license/skerit/node-skeleton.svg" alt="Project license" />
+  <a href="https://github.com/11ways/node-skeleton#license">
+    <img src="https://img.shields.io/github/license/11ways/node-skeleton.svg" alt="Project license" />
   </a>
 </div>
 <br>
 <div align="center">
-  👷🏼 Personal node.js package skeleton.
+  👷🏼 Eleven Ways' node.js package skeleton.
 </div>
 <div align="center">
   <sub>
-    Coded with ❤️ by <a href="#authors">Jelle De Loecker</a>.
+    Coded with ❤️ by <a href="#authors">Eleven Ways</a>.
   </sub>
 </div>
 
 
 ## Introduction
 
-This repository contains a personal skeleton that I use when I publish my [npm packages](https://www.npmjs.com/~skerit).
+This repository contains a skeleton that I use when I publish my [npm packages](https://www.npmjs.com/~skerit).
 
 ## Install
 
@@ -83,5 +78,7 @@ Please check the [contributing guidelines](.github/contributing.md) for more det
 
 See also the list of [contributors](https://github.com/skerit/node-skeleton/contributors) who participated in this project.
 
+node-skeleton is developed at [Eleven Ways](https://www.elevenways.be/), a team of [IAAP Certified Accessibility Specialists](https://www.accessibilityassociation.org/).
+
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/skerit/node-skeleton/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/11ways/node-skeleton/LICENSE) file for details.
